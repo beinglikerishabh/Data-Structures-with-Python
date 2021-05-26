@@ -73,15 +73,6 @@ class Lis:                         # definig the list class having all the metho
                 current_node = current_node.next
             pre_node.next = None
 
-    def delete_at_pos(self, pos):
-        if pos == 1:
-            self.delete_first()
-        else:
-            count = 0
-            current = self.head
-            pre = self.head
-            while
-
     def print_list(self):
         current = self.head
         while current is not None:
