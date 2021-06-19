@@ -1,5 +1,5 @@
 def AppendFront(x, L):  # this is without using the List comprehension provided as i did in the C version logic
-    return [x+element for element in L]
+    return [x+element for element in L] #it uses recursion and the complexity will be 2^n as total of 2^n strings will be possible
 
 
 def bitstring(n):
